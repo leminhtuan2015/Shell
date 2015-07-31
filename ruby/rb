@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+/home/leminhtuan/.rvm/rubies/ruby-2.1.5/bin/ruby $1

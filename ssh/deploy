@@ -1,0 +1,3 @@
+
+#!/usr/bin/ssh
+ssh deploy@133.242.183.87

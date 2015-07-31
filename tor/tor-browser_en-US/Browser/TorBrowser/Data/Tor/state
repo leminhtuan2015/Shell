@@ -1,0 +1,42 @@
+# Tor state file last generated on 2015-07-15 12:32:23 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+EntryGuard kale 5BC7724F77570F056A980DBDA3FB48F96E59F07D DirCache
+EntryGuardUnlistedSince 2015-07-15 05:32:14
+EntryGuardAddedBy 5BC7724F77570F056A980DBDA3FB48F96E59F07D 0.2.6.9 2015-07-03 21:32:49
+EntryGuardPathBias 20.000000 20.000000 20.000000 0.000000 0.000000 0.000000
+EntryGuardPathUseBias 17.000000 17.000000
+EntryGuard 3cce3a91f6a625 18B160CD5E22BFC345AEE7BA84B7EA45BF457FCA DirCache
+EntryGuardDownSince 2015-07-15 05:32:18 2015-07-15 05:32:18
+EntryGuardAddedBy 18B160CD5E22BFC345AEE7BA84B7EA45BF457FCA 0.2.6.9 2015-06-22 00:17:26
+EntryGuardPathBias 6.000000 6.000000 6.000000 0.000000 0.000000 0.000000
+EntryGuardPathUseBias 2.000000 2.000000
+EntryGuard AGoodFellow 8AB656020575234BFBA4CD8E81073608F7C5A392 DirCache
+EntryGuardUnlistedSince 2015-07-15 05:32:14
+EntryGuardAddedBy 8AB656020575234BFBA4CD8E81073608F7C5A392 0.2.6.9 2015-06-15 06:18:02
+TorVersion Tor 0.2.6.9 (git-654cd89bbf02304b)
+LastWritten 2015-07-15 05:32:23
+TotalBuildTimes 26
+CircuitBuildTimeBin 975 1
+CircuitBuildTimeBin 1025 1
+CircuitBuildTimeBin 1375 1
+CircuitBuildTimeBin 1425 1
+CircuitBuildTimeBin 1475 1
+CircuitBuildTimeBin 1525 1
+CircuitBuildTimeBin 1575 2
+CircuitBuildTimeBin 1625 1
+CircuitBuildTimeBin 1675 1
+CircuitBuildTimeBin 1725 4
+CircuitBuildTimeBin 2025 1
+CircuitBuildTimeBin 2125 1
+CircuitBuildTimeBin 2175 1
+CircuitBuildTimeBin 2275 1
+CircuitBuildTimeBin 2325 1
+CircuitBuildTimeBin 2375 1
+CircuitBuildTimeBin 2725 1
+CircuitBuildTimeBin 2825 1
+CircuitBuildTimeBin 2875 1
+CircuitBuildTimeBin 21325 1
+CircuitBuildTimeBin 21525 1
+CircuitBuildTimeBin 29225 1
