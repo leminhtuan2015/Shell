@@ -1,3 +1,17 @@
+#!/usr/bin/env sh
 gaa
-gcan
+
+log_branch=$(git log --pretty=oneline  | head -1 | cut -d' ' -f 2)
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+if [ $log_branch==$current_branch ]; then
+  gcan
+else
+  gcmc
+fi
+
 gpof
+
+
+
+
