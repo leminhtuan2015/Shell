@@ -1,2 +1,2 @@
-current_branch=$(git rev-parse --abbrev-ref HEAD)
-git commit -m $current_branch
+_current_branch=$(git rev-parse --abbrev-ref HEAD)
+git commit -m $_current_branch
