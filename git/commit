@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+    gaa
+
+    log_branch=$(git log --pretty=oneline  | head -1 | cut -d' ' -f 2)
+    current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+    echo "log_branch : "; echo $log_branch
+    echo "current_branch : "; echo $current_branch
+
+    if [ "$log_branch" = "$current_branch" ]; then
+    gcan
+    echo "Git commit amend no-edit"
+    else
+    gcmc
+    echo "Git Commit -m(current branch)"
+    fi
