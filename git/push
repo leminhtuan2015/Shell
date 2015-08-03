@@ -6,8 +6,11 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 
 if [[ $log_branch =~ $current_branch ]]; then
   gcan
+  echo "Git commit amend no-edit"
 else
   gcmc
+  echo "Git Commit -m"
+  echo $current_branch
 fi
 
 gpof
